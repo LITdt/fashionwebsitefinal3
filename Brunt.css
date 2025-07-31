@@ -1,0 +1,121 @@
+*{
+  font-family:'Times New Roman', Times, serif;
+  color:#000000;
+  text-align: center;
+
+    } /*This makes everything listed below have these attributes - times new roman font and black coloring for the text*/
+
+
+    
+div.flex-container{
+    
+    height:auto;
+    display:flex; /*Allows for a flex layout*/
+    justify-content:center;
+    gap:1rem;
+    flex-wrap:wrap;
+}
+
+.flex-container img{
+    flex: 1 1 200px; /*grow, shrink, with the base width being 300px*/
+    max-width:100%;
+    height:auto;
+    min-width:0;
+}
+
+
+/*the navigation bar*/
+nav.navigate{
+float:right;
+color:#46637D;
+width:10%;
+}
+
+nav.navigate ul{
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1.875em;
+}
+
+ul {
+  text-align:center;
+  list-style-type: none;
+  margin:0.625em  0.625em;
+  padding: 0;
+  overflow: hidden;
+  
+}
+ul.visit{
+  text-align: left;
+  font-family:"Times New Roman";
+  display:block;
+  
+}
+li.U{
+  display: inline-block;
+}
+
+li.nav nav.navigate{
+  float: right;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 0.875em 1em;
+  text-decoration: none; /*Removes line from bottom of nav*/
+
+ 
+}
+
+li a:hover {
+  background-color: #e0e0da;
+  color:#000000;
+}
+
+hr{
+  border-color:#FFFFFF;
+}
+
+/*introduction to the student's work*/
+p.intro{
+    font-size:1rem;
+    text-align:center; 
+    /*because it is centered 
+    and also has a particular width,
+    it results in being pushed to one side
+    whilst still controlled*/
+    
+    
+}
+
+.photo1 {
+    width: 100%;
+    height: auto;
+    display:block;
+    padding-right:0.2rem;
+    padding-bottom:0.4rem;
+/*To the left of the page, adapt to screen size*/
+}
+.photo2 {
+    width: 100%;
+    height: auto;
+    float: right;
+    display:block;
+    padding-right:0.2rem;
+    padding-bottom:0.4rem;
+    /*To the right of the page, adapt to screen size*/
+}
+
+
+.text{
+  color:#000000;
+  
+} 
+
+h2.heading{
+    text-align:center;
+    width:100%;
+    height:auto;
+    
+}
